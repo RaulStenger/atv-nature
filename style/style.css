@@ -58,3 +58,132 @@ section.banner {
         padding: 10px 20px 10px 20px;
     }
 }
+/* serviços */
+section.servicos{
+    padding: 7vw 10vw 7vw 10vw;
+  
+    ul{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+  
+            li{
+                width: 25%;
+  
+                    span{
+                        font-size: 3rem;
+                        color: #3B8686;
+                    }
+  
+                    p{
+                        color: #747474;
+                    }
+  
+                    a{
+                        background-color: #3B8686;
+                        padding: 10px 20px 10px 20px;
+                        display: inline-block;
+                        margin: 20px 0 20px 0;
+                    }
+  
+                    h3{
+                        font-size: 1.2rem;
+                        font-weight: 700;
+                        margin: 20px 0 20px 0;
+  
+            }
+        }
+    }
+}
+/* banner números */
+section.numbers {
+            background: linear-gradient(rgba(121, 189, 154, 0.5), rgba(121, 189, 154, 0.5)), url(../img/back-numeros.png) no-repeat center center;
+            padding: 5vw 10vw 5vw 10vw;
+            background-size: cover;
+  
+            ul{
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                color: white;
+  
+                    li{
+                        font-size: 3rem;
+                        width: 10%;
+  
+                            p{
+                                padding: 10px 0 0 0;
+                            }
+                    }
+            }
+}
+/* possibilidade de atividades */
+section.possibilidades{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw 10vw 5vw 10vw;
+  
+        div{
+  
+            h3{
+            font-size: 2rem;
+            color: #0B486B;
+            margin: 0 0 30px 0;
+        }
+  
+            p{
+            font-size: 1.2rem;
+            width: 70%;
+            color: #747474;
+        }
+    }
+}
+section.possibilidades div p.botao a{
+    background-color: #0B486B;
+    padding: 12px 25px 12px 25px;
+    display: inline-block;
+    margin: 20px 10px 10px 10px;
+}
+/* 
+====================================
+                RODAPÉ
+====================================
+*/
+footer nav{
+    background-color:#3B8686;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 5vw 2vw 5vw;
+}
+/* redes */
+footer div ul.redes{
+    display: flex;
+    font-size: 2rem;
+    margin: 0 0 1vw 0;
+    li{
+        margin: 0 10px 0 0;
+    }
+}
+/* contato */
+footer div.contato{
+    h4{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    ul{
+        li{
+            margin: 10px 0 0 0;
+        }
+    }
+}
+/* mapa */
+footer div{
+    ul.mapa{
+        li{
+            margin: 0 0 30px 0;
+            font-size: 1.2rem;
+            text-align: right;
+        }
+    }
+}
